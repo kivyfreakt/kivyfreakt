@@ -10,7 +10,7 @@ canonifyurls = true
   disableWebFonts = false
   homeIntroTitle = 'ня!(^o^)//'
   homeIntroContent = """
-  тут что-то будет...
+  тут что-то будет..
   """
   homePostsTitle = 'Последние тексты'
   homePostsCount = 3
