@@ -1,4 +1,39 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://kivyfreakt.ru/'
+languageCode = 'ru'
+title = 'kivyfreakt'
 theme = 'black-and-light'
+author = "kivyfreakt"
+canonifyurls = true
+
+[params]
+  sitename = "НЯ"
+  disableWebFonts = false
+  homeIntroTitle = 'ня!(^o^)//'
+  homeIntroContent = """
+  тут что-то будет...
+  """
+  homePostsTitle = 'Последние тексты'
+  homePostsCount = 3
+  homePhotoTitle = 'Последние фото'
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/kivyfreakt"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/kivyfreakt"
+
+[[params.social]]
+  name = "telegram"
+  url = "https://t.me/musicfreakt"
+
+
+[[menu.main]]
+  name = "посты"
+  url = "/posts"
+
+[[menu.main]]
+  name = "фото"
+  url = "/photos"
+
