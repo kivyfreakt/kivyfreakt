@@ -1,5 +1,4 @@
 baseURL = 'https://kivyfreakt.ru/'
-languageCode = 'ru'
 title = 'kivyfreakt'
 theme = 'black-and-light'
 author = "kivyfreakt"
@@ -10,11 +9,12 @@ canonifyurls = true
   disableWebFonts = false
   homeIntroTitle = 'ня!(^o^)//'
   homeIntroContent = """
-  тут что-то будет..
+  Я ненавижу Антихайп, он сломал мою жизнь.
   """
   homePostsTitle = 'Последние тексты'
   homePostsCount = 3
   homePhotoTitle = 'Последние фото'
+
 
 [[params.social]]
   name = "github"
