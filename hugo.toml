@@ -1,8 +1,17 @@
 baseURL = 'https://kivyfreakt.ru/'
 title = 'kivyfreakt'
 theme = 'black-and-light'
-author = "kivyfreakt"
+author = "Никита Яловега"
 canonifyurls = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
 
 [params]
   sitename = "НЯ"
@@ -14,6 +23,7 @@ canonifyurls = true
   homePostsTitle = 'Последние тексты'
   homePostsCount = 3
   homePhotoTitle = 'Последние фото'
+  math = false
 
 
 [[params.social]]
